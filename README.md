@@ -41,21 +41,14 @@ cd exam-portal
 
 ### 🔹 2️⃣ Configure MySQL Database
 ```bash
-spring.datasource.url=jdbc:mysql://localhost:3306/examportal
+spring.datasource.url=jdbc:mysql://localhost:3306/exam_portal
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
-### 🔹 3️⃣ Run the application
-```bash
-mvn spring-boot:run
-```
-### 🔹 4️⃣ Access APIs
-```bash
-🌍 Swagger/Postman → http://localhost:8080
-```
+
 ---
 
 ## 👨‍💻 Author  
