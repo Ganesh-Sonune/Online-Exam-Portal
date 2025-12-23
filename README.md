@@ -29,19 +29,7 @@ This project allows **Admins** to manage exams and **Students** to attempt quizz
 
 ---
 
-## 📂 Project Structure
-```bash
-ExamPortal/
- ┣ src/main/java/com/
- ┃ ┣ controller/     # REST Controllers
- ┃ ┣ model/          # Entities (User, Role, Quiz, Question, Result...)
- ┃ ┣ service/        # Service Layer
- ┃ ┗ config/         # Security & JWT Configuration
- ┣ src/main/resources/
- ┃ ┣ application.properties  # DB Config
- ┃ ┗ static/templates        # (Optional - Frontend templates)
- ┣ pom.xml
-```
+
 ---
 
 ## ⚙️ Installation & Setup
